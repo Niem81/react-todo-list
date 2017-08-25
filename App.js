@@ -3,7 +3,7 @@ import AdviceInput from './AdviceInput';
 import AdviceList from './AdviceList';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import actions from '../redux/actions';
+import actions from '../actions';
 import UserInfo from './UserInfo';
 
 class App extends Component {

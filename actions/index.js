@@ -1,3 +1,5 @@
+import * as types from './actionTypes';
+
 let actions = {
   addAdvice: function(text) {
     return {
